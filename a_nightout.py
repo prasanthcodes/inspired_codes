@@ -37,14 +37,12 @@ for k in range(508):
 img=np.vstack((r,f))
 interval=2
 ind1=np.arange(0,img.shape[0],interval)
-# ind2=np.arange(0,img.shape[1],2)
 img=img[ind1,:]##resizing
 sz=img.shape
 #---apply colors to the pixels---
 normalized_img=((img.flatten()-np.min(img))/(np.max(img)-np.min(img)))
 idx=np.round((c_value.shape[0]-1)*normalized_img).astype(np.int)-2
 idx[idx<0]=0
-print(np.sum(idx==0))
 img=c_value[idx].reshape([sz[0],sz[1],3])
 
 a=np.arange(-90,90+1,1)
@@ -55,5 +53,4 @@ ypos=np.vstack((yval+468,-yval+468)).transpose()
 plt.fill(xpos,ypos/interval,color=j,edgecolor=j)
 plt.imshow(img)
 plt.show()
-print(0)
 
