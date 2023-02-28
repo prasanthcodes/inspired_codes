@@ -7,5 +7,8 @@ Remix of original, amazing collatz feather by taozim
 ### 2. Orchid  
 ![figure_orc](Figure_orc.png)
 
-### 2. A nightout 
+### 3. A nightout 
 ![figure_ngt](Figure_ngt.png)
+
+### 4. Lake view to west
+![figure_lvtw](Figure_lvtw.png)
