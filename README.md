@@ -12,3 +12,6 @@ Remix of original, amazing collatz feather by taozim
 
 ### 4. Lake view to west
 ![figure_lvtw](Figure_lvtw.png)
+
+### 5. Aurora
+![figure_aur](Figure_aur.png)
