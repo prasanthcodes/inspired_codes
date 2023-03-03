@@ -15,3 +15,9 @@ Remix of original, amazing collatz feather by taozim
 
 ### 5. Aurora
 ![figure_aur](Figure_aur.png)
+
+### 6. pumpkin
+![figure_pum](Figure_pum.png)
+
+### 7. A Fancy Rose
+![figure_ros](Figure_ros.png)
